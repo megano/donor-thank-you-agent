@@ -22,13 +22,13 @@ import anthropic
 import gmail_client
 
 MODEL = "claude-opus-4-8"
-SEND_TO = "drafts@example.org"  # demo: route all drafts to a single reviewer inbox
+SEND_TO = os.environ.get("SEND_TO", "drafts@example.org")  # override per run; default is a placeholder
 
 # draft (default): create a Gmail draft for human review; send: send directly;
 # print: no Gmail, just echo to the terminal (preview without OAuth setup).
 DELIVERY_MODE = os.environ.get("DELIVERY_MODE", "draft")
 
-# Swap this block to re-skin the agent for a different organization.
+# Edit this block to point the agent at a different organization.
 ORG = {
     "name": "Example Community Fund",
     "signer_name": "Carmen Sandiego",
