@@ -1,0 +1,22 @@
+# Generated outputs (regeneratable)
+data/donors_summed.csv
+data/donations_itemized.csv
+data/acknowledgments.csv
+data/reportable.csv
+drafts/
+
+# Real donor PII: never commit. (data/donations.csv here is SYNTHETIC sample data.)
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env / secrets
+.env
+*.local
+
+# Google OAuth: never commit
+credentials.json
+token.json

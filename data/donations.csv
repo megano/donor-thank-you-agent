@@ -1,0 +1,21 @@
+donor_id,first_name,last_name,email,amount,date,city,state,employer,occupation,is_recurring
+1001,Maria,Alvarez,maria.alvarez@example.com,25.00,2026-05-02,Oakland,CA,Self,Teacher,no
+1002,James,Park,james.park@example.com,250.00,2026-05-03,San Jose,CA,Cisco,Engineer,no
+1003,Dolores,Whitman,dolores.whitman@example.com,500.00,2026-05-03,Sacramento,CA,Retired,Retired,no
+1004,Tom,Becker,tom.becker@example.com,10.00,2026-05-04,Fresno,CA,Self,Driver,yes
+1005,Aisha,Rahman,aisha.rahman@example.com,1000.00,2026-05-05,Los Angeles,CA,UCLA,Professor,no
+1006,Greg,Santos,greg.santos@example.com,50.00,2026-05-05,Long Beach,CA,Kaiser,Nurse,no
+1007,Maria,Alvarez,maria.alvarez@example.com,200.00,2026-05-09,Oakland,CA,Self,Teacher,no
+1008,Linda,Cho,linda.cho@example.com,35.00,2026-05-10,Irvine,CA,Self,Designer,yes
+1009,Robert,Mensah,robert.mensah@example.com,2900.00,2026-05-11,San Francisco,CA,Mensah Capital,Investor,no
+1010,Patty,Nguyen,patty.nguyen@example.com,15.00,2026-05-12,San Diego,CA,Self,Student,no
+1011,Frank,DiLeo,frank.dileo@example.com,199.00,2026-05-12,Bakersfield,CA,DiLeo Auto,Owner,no
+1012,Sandra,Olsen,sandra.olsen@example.com,300.00,2026-05-13,Berkeley,CA,Retired,Retired,yes
+1013,Kevin,Brooks,kevin.brooks@example.com,75.00,2026-05-14,Stockton,CA,USPS,Clerk,no
+1014,Tom,Becker,tom.becker@example.com,10.00,2026-05-18,Fresno,CA,Self,Driver,yes
+1015,Hana,Suzuki,hana.suzuki@example.com,5000.00,2026-05-19,Palo Alto,CA,Suzuki Labs,Founder,no
+1016,Marcus,Hill,,40.00,2026-05-20,Compton,CA,Self,Mechanic,no
+1017,Ellen,Vance,ellen.vance@example.com,125.00,2026-05-21,Pasadena,CA,Self,Writer,no
+1018,Dolores,Whitman,dolores.whitman@example.com,500.00,2026-05-22,Sacramento,CA,Retired,Retired,no
+1019,Sam,Whitfield,sam.whitfield@example.com,20.00,2026-05-23,Modesto,CA,Self,Cook,no
+1020,Priya,Iyer,priya.iyer@example.com,150.00,2026-05-24,Sunnyvale,CA,Google,PM,no
