@@ -42,8 +42,10 @@ Outputs:
    - *missing contact*: no email; flagged, not dropped
 
 `agent.py` is the LLM tool-use loop: it reads each tier's donor and drafts a
-tone-matched thank-you in the org's voice (the `ORG` block re-skins it), then calls a
-`deliver_thank_you` tool. Run it with `ANTHROPIC_API_KEY` set.
+tone-matched thank-you in the org's voice, then calls a `deliver_thank_you` tool.
+To point it at a different organization, edit the `ORG` dict (name, signer, mission);
+no other code changes are needed. It calls the Anthropic API to write the drafts, so
+set `ANTHROPIC_API_KEY` in your environment before running.
 
 ## Email delivery
 
